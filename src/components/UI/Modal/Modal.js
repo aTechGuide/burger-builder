@@ -4,7 +4,6 @@ import Aux from '../../../hoc/Aux';
 import Backdrop from '../Backdrop/Backdrop';
 
 const Modal = (props) => {
-  console.log("Modal Called");
   
   return (
     <Aux>
