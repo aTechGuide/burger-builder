@@ -2,6 +2,7 @@
 
 Single page React App to build a Burger dynamically. This App has following components
 - Burger builder page taking inputs from user to build a burger
+- Checkout Page displaying preview of burger with `Continue` and `Cancel` options
 - Fire base integration to persist the data
 
 ## Tech Stack
