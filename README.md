@@ -10,6 +10,7 @@ Single page React App to build a Burger dynamically. This App has following comp
 - React 
 - React Router
 - React Redux
+- Redux Thunk
 - Firebase
 
 ## Environment Variables
