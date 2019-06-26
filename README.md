@@ -8,6 +8,8 @@ Single page React App to build a Burger dynamically. This App has following comp
 
 ## Tech Stack
 - React 
+- React Router
+- React Redux
 - Firebase
 
 ## Environment Variables
@@ -18,3 +20,4 @@ Please provide following environment variables to access full functionality
 
 ## Resources
 - This app is build as a project of [React the complete guide incl Redux](https://www.udemy.com/react-the-complete-guide-incl-redux/) Udemy course
+- Redux DevTools instructions [Link](https://github.com/zalmoxisus/redux-devtools-extension)
