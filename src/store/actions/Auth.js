@@ -58,10 +58,8 @@ export const auth = (email, password, isSignup) => {
       url = 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=' + API_KEY;
     }
 
-    console.log(authData);
     axios.post(url, authData)
       .then(response => {
-        console.log(response);
 
         const expirationDate = new Date(new Date().getTime() + response.data.expiresIn * 1000)
         localStorage.setItem('token', response.data.idToken);

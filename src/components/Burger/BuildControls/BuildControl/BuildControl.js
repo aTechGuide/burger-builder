@@ -4,8 +4,6 @@ import classes from './BuildControl.module.css';
 const BuildControl = (props) => {
   const {label, added, removed, disabled} = props;
   
-  // console.log(disabled);
-  
   return (
     <div className={classes.BuildControl} >
       <div className={classes.Label}>{label}</div>
